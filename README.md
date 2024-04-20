@@ -16,7 +16,7 @@ Go to application.properties in resources and configure the db
     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
     spring.datasource.url=jdbc: mysql://localhost:3306/beststore
     spring.datasource.username=root
-    spring.datasource.password=
+    spring.datasource.password=Aks@2003
     spring.jpa. show-sql=true
     spring.jpa.hibernate.ddl-auto=update
 
