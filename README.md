@@ -11,4 +11,13 @@ This is the relative path of the main java class
 When you run this, you will come accross this error
 ![image](https://github.com/Akshathamk-123/learning-spring-boot-thyme-leaf/assets/92522733/a1e2e7be-f3af-4147-b732-56c4a818d1e3)
 
+Go to application.properties in resources and configure the db
+
+    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+    spring.datasource.url=jdbc: mysql://localhost:3306/beststore
+    spring.datasource.username=root
+    spring.datasource.password=
+    spring.jpa. show-sql=true
+    spring.jpa.hibernate.ddl-auto=update
+
 
